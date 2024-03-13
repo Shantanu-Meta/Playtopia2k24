@@ -2,7 +2,6 @@ import React from "react";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "../Styles/Carousel.css"; 
-import { motion } from "framer-motion";
 import games from "./games";
 import "../Styles/Fonts.css";
 
@@ -148,10 +147,7 @@ const Events = () => {
               <div className="h-[350px] w-[700px] mx-[90px] lg:mx-[200px] z-10">
                 <h1 className="text-9xl md:text-7xl m-0">8 Ball Pool</h1>
                 <p className="text-2xl md:text-xl my-6">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-                  deserunt at, id itaque dolor dolores cumque consequatur,
-                  accusantium quibusdam sequi eaque, assumenda asperiores fugit
-                  sint adipisci hic necessitatibus. Nisi, eius.
+                Step into the virtual world of 8ball pool! Show off your skills in precision and tactics. It's all about aiming, strategy and a dash of luck, making every shot a moment of thrilling excitement and fun. Let's grab the cue sticks and  break into the world of gaming!
                 </p>
                 <div className="w-full flex mt-12">
                   <Link to={"/ballpoolregister"}>
@@ -171,10 +167,7 @@ const Events = () => {
               <div className="h-[350px] w-[700px] mx-[90px] lg:mx-[200px] z-10">
                 <h1 className="text-9xl md:text-7xl m-0">Photography</h1>
                 <p className="text-2xl md:text-xl my-6">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-                  deserunt at, id itaque dolor dolores cumque consequatur,
-                  accusantium quibusdam sequi eaque, assumenda asperiores fugit
-                  sint adipisci hic necessitatibus. Nisi, eius.
+                Embark on a visual journey and let your passion for photography shine! We invite you to participate in our exciting photography competition, where you can unleash your creativity, capture breathtaking moments, and share your unique perspective with the world.
                 </p>
                 <div className="w-full flex mt-12">
                   <Link to={"/photographyregister"}>
@@ -214,10 +207,8 @@ const Events = () => {
               <div className="h-[350px] w-[700px] mx-[90px] lg:mx-[200px] z-10">
                 <h1 className="text-9xl md:text-7xl m-0">Treasure Hunt</h1>
                 <p className="text-2xl md:text-xl my-6">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-                  deserunt at, id itaque dolor dolores cumque consequatur,
-                  accusantium quibusdam sequi eaque, assumenda asperiores fugit
-                  sint adipisci hic necessitatibus. Nisi, eius.
+                Treasure: The ultimate goal is to locate the treasure, which could be a physical object hidden at a specific location or a virtual prize.
+
                 </p>
                 <div className="w-full flex mt-12">
                   <Link to={"/treasureregister"}>

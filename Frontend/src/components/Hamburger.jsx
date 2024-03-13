@@ -12,6 +12,7 @@ const navLinks = [
   { title: "Gallery", href: "/" },
   { title: "Sponsers", href: "/" },
   { title: "Contact Us", href: "/" },
+  { title: "Team", href: "/team" },
 ];
 
 const Hamburger = () => {

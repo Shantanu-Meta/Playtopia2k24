@@ -26,7 +26,7 @@ const games = [
     {
         id: 3,
         title: "8 Ball Pool",
-        desc: "Calling all adventurers! Get ready to set sail on an epic treasure hunt across our very own campus! Join us for a thrilling afternoon of puzzles, riddles, and teamwork as we unearth hidden booty! Are you ready to put your skills to the test and claim the ultimate prize? ",
+        desc: "Step into the virtual world of 8ball pool! Show off your skills in precision and tactics. It's all about aiming, strategy and a dash of luck, making every shot a moment of thrilling excitement and fun. Let's grab the cue sticks and  break into the world of gaming!",
         src: bg3,
         position: "center",
         route: "/ballpoolregister"
@@ -34,7 +34,7 @@ const games = [
     {
         id: 4,
         title: "Photography",
-        desc: "Calling all adventurers! Get ready to set sail on an epic treasure hunt across our very own campus! Join us for a thrilling afternoon of puzzles, riddles, and teamwork as we unearth hidden booty! Are you ready to put your skills to the test and claim the ultimate prize? ",
+        desc: "Embark on a visual journey and let your passion for photography shine! We invite you to participate in our exciting photography competition, where you can unleash your creativity, capture breathtaking moments, and share your unique perspective with the world.",
         src: bg4,
         position: "center",
         route: "/photographyregister"
@@ -42,7 +42,7 @@ const games = [
     {
         id: 5,
         title: "Business Hackathon",
-        desc: "This Businwss Hackathon will help the youth to reach out to numerous young minds and market experts and will be able to enrich themselves with creativity and technical expertise . It invites the students to a platform that allows them to solve real-world problems faced by various government or private departments and organizations.",
+        desc: "This Business Hackathon will help the youth to reach out to numerous young minds and market experts and will be able to enrich themselves with creativity and technical expertise . It invites the students to a platform that allows them to solve real-world problems faced by various government or private departments and organizations.",
         src: bg5,
         position: "center",
         route: "/bshackregister"
@@ -50,7 +50,7 @@ const games = [
     {
         id: 6,
         title: "Treasure Hunt",
-        desc: "Calling all adventurers! Get ready to set sail on an epic treasure hunt across our very own campus! Join us for a thrilling afternoon of puzzles, riddles, and teamwork as we unearth hidden booty! Are you ready to put your skills to the test and claim the ultimate prize? ",
+        desc: "This Businwss Hackathon will help the youth to reach out to numerous young minds and market experts and will be able to enrich themselves with creativity and technical expertise.",
         src: bg6,
         position: "center",
         route: "/treasureregister"

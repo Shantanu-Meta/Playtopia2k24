@@ -83,6 +83,7 @@ function Navbar() {
                     <Link to={"/"}><a href="#events" className='text-[20px] text-white m-[20px] hover:text-white' onClick={() => handleScrollToSection('events')}>Events</a></Link>
                     <Link to={"/"}><a href="#gallery" className='text-[20px] text-white m-[20px] hover:text-white' onClick={() => handleScrollToSection('gallery')}>Gallery</a></Link>
                     <Link to={"/"}><a href="#footer" className='text-[20px] text-white m-[20px] hover:text-white' onClick={() => handleScrollToSection('footer')}>Contact Us</a></Link>
+                    <Link to={"/team"} className='text-[20px] text-white m-[20px] hover:text-white'>Team</Link>
                 </div>
 
                 <div className='flex justify-between items-center gap-[1rem]'>

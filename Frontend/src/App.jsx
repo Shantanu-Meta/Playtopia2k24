@@ -11,6 +11,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import User from './components/User'
 import Events from './components/Events'
 import Error from './components/Error.jsx'
+import Team from './components/Team.jsx'
 
 import ValorantReg from './components/EventPages/ValorantReg.jsx';
 import BgmiReg from './components/EventPages/BgmiReg.jsx';
@@ -85,6 +86,10 @@ export default function App() {
               <ProtectedRoute>
                 <User/>
               </ProtectedRoute>
+            }/>
+
+            <Route exact path='/team' element={
+                <Team/>
             }/>
           </Routes>
           <ToastContainer autoClose={1000}/>

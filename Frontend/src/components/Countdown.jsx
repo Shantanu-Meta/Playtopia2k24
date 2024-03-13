@@ -17,10 +17,10 @@ const Countdown = () => {
   });
 
   useEffect(() => {
-    const countdownDate = new Date(); // Current date and time
-    countdownDate.setDate(countdownDate.getDate() + 1); // Set the countdown to start as per your like
+    const countdownDate = new Date();
+    countdownDate.setDate(countdownDate.getDate() + 3); // Set the countdown to start 3 days from now
 
-    const COUNTDOWN_FROM = countdownDate.toLocaleDateString(); // Change this to whatever date you want to countdown to
+    const COUNTDOWN_FROM = countdownDate.toLocaleDateString();
 
     intervalRef.current = setInterval(() => handleCountdown(COUNTDOWN_FROM), 1000);
 
@@ -49,7 +49,7 @@ const Countdown = () => {
 
   return (
     <div className="p-4 bg-transparent w-full">
-      <div className="w-full max-w-5xl mx-auto flex items-center bg-trasparent">
+      <div className="w-full max-w-5xl mx-auto flex items-center bg-transparent">
         <CountdownItem num={remaining.days} text="days" />
         <CountdownItem num={remaining.hours} text="hours" />
         <CountdownItem num={remaining.minutes} text="minutes" />
