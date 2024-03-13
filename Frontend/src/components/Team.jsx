@@ -1135,10 +1135,7 @@ export const Team = () => {
                     
                         </div>
                     
-                    </div>
-                    
-                        
-                        
+                    </div>  
                 </div>
             </motion.div>
 
