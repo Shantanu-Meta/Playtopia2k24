@@ -24,7 +24,7 @@ export default function UseUserContext(props){
     const navigate = useNavigate();
 
 
-    const host = "https://playtopia2k24-server.vercel.app" // hosting purpose
+    const host = "https://api.playtopia2k24.in" // hosting purpose
 
     useEffect(()=>{
         const unSubscribe = onAuthStateChanged(auth, (googleUser)=>{
