@@ -431,6 +431,7 @@ export const Team = () => {
                     Development Team
                 </motion.h1>
                 <div className="flex flex-col justify-center items-center">
+                <div className='flex gap-10'>
                 <motion.div
                         className="flex flex-col items-center p-2 mt-6"
                         initial={{ scale: 0, opacity: 0 }}
@@ -459,8 +460,37 @@ export const Team = () => {
                         >
                             Lead
                         </motion.p>
-                    </motion.div>
-
+                </motion.div>
+                <motion.div
+                        className="flex flex-col items-center p-2 mt-6"
+                        initial={{ scale: 0, opacity: 0 }}
+                        animate={{ scale: 1, opacity: 1 }}
+                        transition={{ delay: 0.3, duration: 0.5 }}
+                    >
+                        <motion.img
+                            className="object-cover w-[100px] h-[100px] rounded-full ring-4 ring-gray-300"
+                            src="/Contributor Photos/Web Team/Debo.png"
+                            alt="Debo BH"
+                            loading='lazy'
+                        />
+                        <motion.h1
+                            className="mt-4 text-sm font-semibold text-gray-700 capitalize group-hover:text-white"
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            transition={{ delay: 0.4, duration: 0.5 }}
+                        >
+                            Debajyoti Bhattacharjee
+                        </motion.h1>
+                        <motion.p
+                            className="mt-2 text-gray-500 capitalize group-hover:text-gray-300"
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            transition={{ delay: 0.5, duration: 0.5 }}
+                        >
+                            Lead
+                        </motion.p>
+                </motion.div>
+                        </div>
                     <div className='flex gap-10'>
                     <motion.div
                         className="flex flex-col items-center p-2"
@@ -627,7 +657,7 @@ export const Team = () => {
                 <div className='grid grid-cols-2'>
                     <div className='mt-5 mr-5'>
                         <h1 className="mt-0 text-xl font-semibold text-gray-700 capitalize group-hover:text-white text-center">Valorant</h1>
-                        <div className='grid grid-cols-3'>
+                        <div className='grid grid-cols-2'>
                         <motion.div
                         className="flex flex-col items-center p-2 mt-3"
                         initial={{ scale: 0, opacity: 0 }}
@@ -885,6 +915,28 @@ export const Team = () => {
                     >
                         <motion.img
                             className="object-cover w-20 h-20 rounded-full ring-4 ring-gray-300"
+                            src="/Contributor Photos/Event Coordinators/8 Ball Pool/Sayan Singha Roy.jpg"
+                            alt="Sayan Singha Roy"
+                            loading='lazy'
+                        />
+                        <motion.h1
+                            className="mt-4 text-sm font-semibold text-gray-700 capitalize group-hover:text-white"
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            transition={{ delay: 0.4, duration: 0.5 }}
+                        >
+                           Sayan Singha Roy
+                        </motion.h1>
+                        
+                    </motion.div>
+                    <motion.div
+                        className="flex flex-col items-center p-2 mt-3"
+                        initial={{ scale: 0, opacity: 0 }}
+                        animate={{ scale: 1, opacity: 1 }}
+                        transition={{ delay: 0.3, duration: 0.5 }}
+                    >
+                        <motion.img
+                            className="object-cover w-20 h-20 rounded-full ring-4 ring-gray-300"
                             src="/Contributor Photos/Event Coordinators/8 Ball Pool/Upanjan Ghosh .jpg"
                             alt="Upanjan Ghosh"
                             loading='lazy'
@@ -1047,7 +1099,7 @@ export const Team = () => {
                     </div>
                     <div className='mt-5 ml-5'>
                         <h1 className="mt-0 text-xl font-semibold text-gray-700 capitalize group-hover:text-white text-center">Open Mic</h1>
-                        <div className='grid grid-cols-3'>
+                        <div className='grid grid-cols-2'>
                         <motion.div
                         className="flex flex-col items-center p-2 mt-3"
                         initial={{ scale: 0, opacity: 0 }}

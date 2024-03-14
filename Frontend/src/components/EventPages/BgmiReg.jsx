@@ -36,7 +36,7 @@ const BgmiReg = () => {
         toast.success("Successfully Registered"); 
         navigate("/")
         }else{
-        toast.error("Already registered"); 
+        toast.error("Registration Failed"); 
         }
     }
     return (

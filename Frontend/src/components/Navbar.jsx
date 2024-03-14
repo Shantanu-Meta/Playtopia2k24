@@ -53,7 +53,7 @@ function Navbar() {
             {windowWidth.windowWidth < 550 ? (
                 <motion.header
                 id="headSection"
-                className="h-full w-full mx-1  flex justify-between items-center z-3"
+                className="h-full w-full mx-1  flex justify-between items-center z-3 mt-6"
                 initial={{ y: -100, opacity: 0 }} // Initial position (off-screen and invisible)
                 animate={{ y: 0, opacity: 1 }} // Animation when component mounts
                 transition={{ type:"tween", stiffness: 150, damping: 20, duration: 0.5 }} // Animation transition

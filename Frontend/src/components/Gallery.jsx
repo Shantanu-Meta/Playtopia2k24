@@ -3,7 +3,8 @@ import Marquee from 'react-fast-marquee';
 const Gallery = () => {
   return (
     <div className="min-h-screen flex justify-center items-center flex-col bg-[url('/gallery.jpg')] bg-cover bg-bottom  bg-no-repeat">
-      <Marquee className='mt-[150px]'>
+      <div className='w-full flex justify-center pt-[4rem] md:pt-[7rem] relative z-20 text-white'><h1 className='w-full text-3xl lg:text-5xl text-center font-[Valorax]'>Gallery</h1></div>
+      <Marquee className='mt-[2rem]'>
         <div className="flex justify-between flex-wrap h-[300px] gap-3">
           <div className="h-[250px] mb-4 md:mb-0 ">
             <img src="/Gallery/1.jpg " alt="first image" className="h-full rounded-lg drop-shadow-xl" />

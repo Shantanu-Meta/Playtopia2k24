@@ -16,7 +16,7 @@ const User = () => {
     }, [])
     return (
         <>
-        <section className={`h-screen w-full lg:pt-0 lg:px-[100px] lg:pb-[40px] sm:px-[50-px] flex justify-center items-center flex-col relative `}>
+        <section className={`h-screen w-full lg:pt-0 lg:px-[100px] lg:pb-[40px] sm:px-[50-px] flex justify-center items-center flex-col relative bg-[#1f2937]`}>
             {loader===1 && <Loader/>}
             <Navbar/>
             <div className="bg-gradient-to-r from-slate-700 to-slate-900e w-[90%] mx-auto md:w-[70%] overflow-hidden sm:rounded-lg pt-5 shadow-2xl rounded-md">
