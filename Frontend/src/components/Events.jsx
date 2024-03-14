@@ -65,11 +65,12 @@ const Events = () => {
               {selectedGame ? selectedGame.desc : defaultP}
             
           </div>
+          {selectedGame.id===4 ? <a href={"https://forms.gle/1Vxgyn2yauPZFWF87"} target="__blank" className="flex justify-center rounded-lg w-[120px] bg-white h-[50px] my-1  items-center   cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#009b49] before:to-[rgb(105,184,141)] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-black mt-5 bg-gradient-to-r from-amber-500 to-pink-500 font-bold "> Register </a> : 
           <Link to={selectedGame?.route} >
                       <button className="flex justify-center rounded-lg w-[120px] bg-white h-[50px] my-1  items-center   cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#009b49] before:to-[rgb(105,184,141)] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-black mt-5 bg-gradient-to-r from-amber-500 to-pink-500 font-bold ">
                         Register
                       </button>
-          </Link>
+          </Link> } 
           </div>
           
 
@@ -170,11 +171,11 @@ const Events = () => {
                 Embark on a visual journey and let your passion for photography shine! We invite you to participate in our exciting photography competition, where you can unleash your creativity, capture breathtaking moments, and share your unique perspective with the world.
                 </p>
                 <div className="w-full flex mt-6">
-                  <Link to={"/photographyregister"}>
+                  <a href={"https://forms.gle/1Vxgyn2yauPZFWF87"} target="__blank">
                   <button className="w-[120px] bg-white h-[50px] my-1 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#009b49] before:to-[rgb(105,184,141)] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-black">
                       Register
-                    </button>
-                  </Link>
+                  </button>
+                  </a>
                 </div>
               </div>
             </div>

@@ -623,14 +623,29 @@ export const Team = () => {
                         >
                             Prasun Banerjee
                         </motion.h1>
-                        <motion.p
-                            className="mt-2 text-gray-500 capitalize group-hover:text-gray-300"
+                        
+                    </motion.div>
+                    <motion.div
+                        className="flex flex-col items-center p-2"
+                        initial={{ scale: 0, opacity: 0 }}
+                        animate={{ scale: 1, opacity: 1 }}
+                        transition={{ delay: 0.3, duration: 0.5 }}
+                    >
+                        <motion.img
+                            className="object-cover w-20 h-20 rounded-full ring-4 ring-gray-300"
+                            src="/Contributor Photos/Graphics Team/Dipayan.jpg"
+                            alt="Dipayan"
+                            loading='lazy'
+                        />
+                        <motion.h1
+                            className="mt-4 text-sm font-semibold text-gray-700 capitalize group-hover:text-white"
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
-                            transition={{ delay: 0.5, duration: 0.5 }}
+                            transition={{ delay: 0.4, duration: 0.5 }}
                         >
-                            Backend
-                        </motion.p>
+                            Dipayan Sadhu
+                        </motion.h1>
+                        
                     </motion.div>
                     </div>
                     

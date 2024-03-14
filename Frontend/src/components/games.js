@@ -37,7 +37,7 @@ const games = [
         desc: "Embark on a visual journey and let your passion for photography shine! We invite you to participate in our exciting photography competition, where you can unleash your creativity, capture breathtaking moments, and share your unique perspective with the world.",
         src: bg4,
         position: "center",
-        route: "/photographyregister"
+        route: "/photo"
     },
     {
         id: 5,
