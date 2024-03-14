@@ -50,8 +50,8 @@ const User = () => {
                             </dd>
                         </div>
                         <div className=" px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                            <dt className="text-xl text-white">
-                                User ID
+                            <dt className="text-xl text-teal-300">
+                                Login ID
                             </dt>
                             <dd className="mt-1 text-gray-200 sm:mt-0 sm:col-span-2">
                                 {player.userId}

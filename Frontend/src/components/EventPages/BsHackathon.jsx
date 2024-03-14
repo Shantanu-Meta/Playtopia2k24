@@ -44,9 +44,7 @@ const BsHackathon = () => {
                         <h1 className="md:text-3xl font-bold tracking-wider text-white capitalize text-center text-[1.2rem]">
                             Register with Business Hackathon
                         </h1>
-                        <h2 className="md:text-[1rem] tracking-wider text-gray-400 text-center text-[1rem] mt-1">
-                            (Every player should log in to get LogIn Id)
-                        </h2>
+                       
                         <form onSubmit={doRegister}>
                             <div className="grid grid-cols-2 gap-3 mt-8 md:grid-cols-2 lg:grid-cols-4">
                             <div>

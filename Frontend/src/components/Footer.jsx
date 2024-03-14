@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="h-screen lg:h-full w-full relative bg-gray-800 pt-[80px] lg:pt-0">
       <div className="h-full w-full px-6 py-10 ">
         <div className="lg:flex w-full">
-          <div className="w-full  lg:w-2/5">
+          <div className="w-full  lg:w-1/5">
             <div className="px-6 flex justify-evenly items-center">
               <a href="#">
                 <img
@@ -30,35 +30,45 @@ const Footer = () => {
                 <div>
                   <h3 className="uppercase text-white ">Faculty Coordinator</h3>
                 </div>
-                <div>
+                <div className="grid grid-cols-2 gap-x-5">
                   <p
                     className="block mt-2 text-sm  text-gray-400 "
                   >
-                    Nayantara Mitra
+                    Prof.Nayantara Mitra
                   </p>
                   <p
                     className="block mt-2 text-sm text-gray-400 "
                   >
-                    Ankan Bhowmik
+                    Prof.Ankan Bhowmik
                   </p>
                   <p
                     className="block mt-2 text-sm text-gray-400 "
                   >
-                    Biswajit Maity
+                    Prof.Biswajit Maity
                   </p>
                   <p
                     className="block mt-2 text-sm text-gray-400 "
                   >
-                    Sourav Pramanik
+                    Prof.Sourav Pramanik
                   </p>
                   <p
                     className="block mt-2 text-sm text-gray-400 "
                   >
-                    Priyanka Das
+                    Prof.Priyanka Das
+                  </p>
+                  <p
+                    className="block mt-2 text-sm text-gray-400 "
+                  >
+                    Prof.Sayan Karmakar 
+                  </p>
+                  <p
+                    className="block mt-2 text-sm text-gray-400 "
+                  >
+                    Prof.Sananda Halder
                   </p>
                 </div>
               </div>
-              <div>
+              <div className="md:text-center">
                 <h3 className=" uppercase text-white">Student Coordinator</h3>
                 <p className="block mt-2 text-sm text-gray-400 hover:underline">
                   {" "}
@@ -91,13 +101,13 @@ const Footer = () => {
                    9874512090
                 </a>
               </div>
-              <div>
+              <div className="md:text-center">
                 <h3 className=" uppercase text-white">Socials</h3>
                 <a
                   href="#"
                   className="block mt-2 text-sm  text-gray-400 hover:underline"
                 >
-                  <i className="ri-whatsapp-line mr-2"></i>Instagram
+                  Instagram <i class="ri-instagram-line"></i>
                 </a>
                 
               </div>

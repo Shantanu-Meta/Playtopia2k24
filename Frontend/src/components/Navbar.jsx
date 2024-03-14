@@ -49,8 +49,8 @@ function Navbar() {
         logOut();
     }
     return (
-        <div className={`w-[90%] h-[70px] md:h-[100px] lg:h-[100px] md:px-[10px] lg:pt-0 lg:px-[100px] sm:mx-[50px] flex justify-between items-center font-[Kollektif] fixed top-0 z-50`}>
-            {windowWidth.windowWidth < 550 ? (
+        <div className={`w-full lg:w-[90%] h-[70px] md:h-[100px] lg:h-[100px] md:px-[10px] lg:pt-0  lg:mx-[50px] flex justify-between items-center font-[Kollektif] fixed top-0 z-50`}>
+            {windowWidth.windowWidth < 945 ? (
                 <motion.header
                 id="headSection"
                 className="h-full w-full mx-1  flex justify-between items-center z-3 mt-6"

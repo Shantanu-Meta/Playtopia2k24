@@ -51,7 +51,7 @@ const BgmiReg = () => {
                             Register with BGMI
                         </h1>
                         <h2 className="md:text-[1rem] tracking-wider text-gray-400 text-center text-[1rem] mt-1">
-                            (Every player should log in to get LogIn Id)
+                        (To get <span className="font-bold text-teal-300">Login id</span>,every player should sign up and find in your profile tab)
                         </h2>
                         <form onSubmit={doRegister}>
                             <div className="grid grid-cols-2 gap-3 mt-8 md:grid-cols-2 lg:grid-cols-4">
@@ -61,7 +61,7 @@ const BgmiReg = () => {
                             </div>
                             <div>
                                 <label className="block mb-2 text-sm text-white">Game Id(Leader)</label>
-                                <input type="text" placeholder="" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg  focus:outline-none focus:ring focus:ring-opacity-40" onChange={(e)=>{setGameId(e.target.value)}}required/>
+                                <input type="text" placeholder="" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg  focus:outline-none focus:ring focus:ring-opacity-40" onChange={(e)=>{setGameId(e.target.value)}} required/>
                             </div>
                             <div>
                                 <label className="block mb-2 text-sm text-white">Team Name</label>

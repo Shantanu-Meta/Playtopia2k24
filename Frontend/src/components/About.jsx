@@ -5,7 +5,7 @@ import { useInView } from 'react-intersection-observer';
 import Marquee from 'react-fast-marquee';
 
 const Aboutus = () => {
-  const desc = ["Calling all adventurers! ️ Get ready to set sail on an epic treasure hunt across our very own campus! Join us for a thrilling afternoon of puzzles, riddles, and teamwork as we unearth hidden booty! Are you ready to put your skills to the test and claim the ultimate prize?"];
+  const desc = ["Calling all gamers and adventure seekers! Get ready for a mesmerising gaming event filled with thrilling 8 ball pool matches , Bgmi , valorant and also with  heart-pounding treasure hunts , unique business talks and jaw-dropping open mic performances! It's going to be an epic experience for all of you . RSVP now and let the games begin!"];
 
   const [ref, inView] = useInView({
     triggerOnce: true,

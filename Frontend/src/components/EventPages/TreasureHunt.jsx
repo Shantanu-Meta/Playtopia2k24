@@ -49,7 +49,7 @@ const TreasureHunt = () => {
                             Register with Treasure Hunt
                         </h1>
                         <h2 className="md:text-[1rem] tracking-wider text-gray-400 text-center text-[1rem] mt-1">
-                            (Every player should log in to get LogIn Id)
+                        (To get <span className="font-bold text-teal-300">Login id</span>,every player should sign up and find in your profile tab)
                         </h2>
                         <form onSubmit={doRegister}>
                             <div className="grid grid-cols-2 gap-3 mt-8 md:grid-cols-2 lg:grid-cols-4">

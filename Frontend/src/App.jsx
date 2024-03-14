@@ -15,7 +15,7 @@ import Team from './components/Team.jsx'
 
 import ValorantReg from './components/EventPages/ValorantReg.jsx';
 import BgmiReg from './components/EventPages/BgmiReg.jsx';
-import OpenMicReg from './components/EventPages/OpenmicReg.jsx'
+// import OpenMicReg from './components/EventPages/OpenmicReg.jsx'
 import BallPoolReg from './components/EventPages/BallPoolReg.jsx'
 import TreasureHunt from './components/EventPages/TreasureHunt.jsx'
 import BsHackathon from './components/EventPages/BsHackathon.jsx'
@@ -71,12 +71,11 @@ export default function App() {
                 <TreasureHunt/>
               </ProtectedRoute>
             }/>
-            <Route exact path='/openmicregister' element={
+            {/* <Route exact path='/openmicregister' element={
               <ProtectedRoute>
                 <OpenMicReg/>
-                {/* done */}
               </ProtectedRoute>
-            }/>
+            }/> */}
             <Route exact path='/photographyregister' element={
               <ProtectedRoute>
                 <BgmiReg/>

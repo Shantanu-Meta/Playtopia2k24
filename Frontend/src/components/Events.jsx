@@ -188,7 +188,7 @@ const Events = () => {
               <div className="h-[350px] w-[700px] mx-[90px] lg:mx-[200px] z-10">
                 <h1 className="text-9xl md:text-7xl m-0">Business Hackathon</h1>
                 <p className="text-2xl md:text-xl my-6">
-                This Businwss Hackathon will help the youth to reach out to numerous young minds and market experts and will be able to enrich themselves with creativity and technical expertise . It invites the students to a platform that allows them to solve real-world problems faced by various government or private departments and organizations.
+                This Business Hackathon will help the youth to reach out to numerous young minds and market experts and will be able to enrich themselves with creativity and technical expertise . It invites the students to a platform that allows them to solve real-world problems faced by various government or private departments and organizations.
                 </p>
                 <div className="w-full flex mt-6">
                 <Link to={"/bshackregister"}>
@@ -232,11 +232,11 @@ const Events = () => {
                 Open Mic is one of the exciting segments of Playtopia, an event organized by the Department of Computer Application and Science; Business Administration. It provides a platform for individuals or duos to showcase their talents in various genres
                 </p>
                 <div className="w-full flex mt-6">
-                <Link to={"/openmicregister"}>
+                <a href={"https://forms.gle/DSHgpnrQqtK9sLSk6"} target="__blank">
                   <button className="w-[120px] bg-white h-[50px] my-1 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#009b49] before:to-[rgb(105,184,141)] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-black">
                       Register
                     </button>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
