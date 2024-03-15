@@ -29,7 +29,7 @@ const games = [
         desc: "Step into the virtual world of 8ball pool! Show off your skills in precision and tactics. It's all about aiming, strategy and a dash of luck, making every shot a moment of thrilling excitement and fun. Let's grab the cue sticks and  break into the world of gaming!",
         src: bg3,
         position: "center",
-        route: "/ballpoolregister"
+        route: "/closed"
     },
     {
         id: 4,

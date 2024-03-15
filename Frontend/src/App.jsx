@@ -12,6 +12,7 @@ import User from './components/User'
 import Events from './components/Events'
 import Error from './components/Error.jsx'
 import Team from './components/Team.jsx'
+import Close from './components/Close.jsx'
 
 import ValorantReg from './components/EventPages/ValorantReg.jsx';
 import BgmiReg from './components/EventPages/BgmiReg.jsx';
@@ -56,11 +57,11 @@ export default function App() {
                 {/* done */}
               </ProtectedRoute>
             }/>
-            <Route exact path='/ballpoolregister' element={
+            {/* <Route exact path='/ballpoolregister' element={
               <ProtectedRoute>
                 <BallPoolReg/>
               </ProtectedRoute>
-            }/>
+            }/> */}
             <Route exact path='/bshackregister' element={
               <ProtectedRoute>
                 <BsHackathon/>
@@ -90,6 +91,9 @@ export default function App() {
             <Route exact path='/team' element={
                 <Team/>
             }/>
+            <Route exact path='/closed' element={
+                <Close/>
+            }/>
           </Routes>
           <ToastContainer autoClose={1000}/>
         </UseUserContext>
@@ -109,7 +113,7 @@ export const ProtectedRoute = ({children}) =>{
 
 export const ProtectedRouteForAdmin = ({children}) =>{
   const {player, currentUser} = useContext(userContext); 
-  if(currentUser?.email === "shantanubhs1985@gmail.com" || currentUser?.email ==="arghajitsingharoy001@gmail.com" || currentUser?.email ==="raptic18@gmail.com" ||  currentUser?.email ==="ghoshsuvrajit17@gmail.com"){
+  if(currentUser?.email === "shantanubhs1985@gmail.com" || currentUser?.email ==="arghajitsingharoy001@gmail.com" || currentUser?.email ==="raptic18@gmail.com" ||  currentUser?.email ==="ghoshsuvrajit17@gmail.com" || currentUser?.email ==="Lbandopadhyay2@gmail.com"){
      return children; 
   }else{
     return <Error/>
