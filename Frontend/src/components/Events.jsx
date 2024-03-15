@@ -109,7 +109,7 @@ const Events = () => {
                 Valorant is a free-to-play multiplayer first-person shooter game developed and published by Riot Games. It features tactical gameplay where players compete in teams to complete objectives. Each player selects a unique character with special abilities, adding strategic depth to the fast-paced matches. The game emphasizes teamwork, communication, and precise shooting mechanics.
                 </p>
                 <div className="w-full flex mt-6">
-                  <Link to={"/valorantregister"}>
+                  <Link to={"/closed"}>
                     <button className="w-[120px] bg-white h-[50px] my-1 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#009b49] before:to-[rgb(105,184,141)] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-black text-[1rem]">
                       Register
                     </button>

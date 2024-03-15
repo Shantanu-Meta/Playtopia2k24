@@ -13,7 +13,7 @@ const games = [
         desc: "Valorant is a free-to-play multiplayer first-person shooter game developed and published by Riot Games. It features tactical gameplay where players compete in teams to complete objectives. Each player selects a unique character with special abilities, adding strategic depth to the fast-paced matches. The game emphasizes teamwork, communication, and precise shooting mechanics.",
         src: bg1,
         position: "center",
-        route: "/valorantregister"
+        route: "/closed"
     },
     {
         id: 2,

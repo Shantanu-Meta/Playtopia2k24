@@ -14,7 +14,7 @@ import Error from './components/Error.jsx'
 import Team from './components/Team.jsx'
 import Close from './components/Close.jsx'
 
-import ValorantReg from './components/EventPages/ValorantReg.jsx';
+// import ValorantReg from './components/EventPages/ValorantReg.jsx';
 import BgmiReg from './components/EventPages/BgmiReg.jsx';
 // import OpenMicReg from './components/EventPages/OpenmicReg.jsx'
 import TreasureHunt from './components/EventPages/TreasureHunt.jsx'
@@ -44,12 +44,11 @@ export default function App() {
                 {/* // done */}
               </ProtectedRoute>
             }/>
-            <Route exact path='/valorantregister' element={
+            {/* <Route exact path='/valorantregister' element={
               <ProtectedRoute>
                 <ValorantReg/>
-                {/* done */}
               </ProtectedRoute>
-            }/>
+            }/> */}
             {/* <Route exact path='/bgmiregister' element={
               <ProtectedRoute>
                 <BgmiReg/>
