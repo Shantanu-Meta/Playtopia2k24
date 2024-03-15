@@ -62,7 +62,7 @@ function Navbar() {
                     <img src="/Logo.svg" alt="" className='h-[70px]'/>
                 </div>
                 <div className='flex justify-between items-center'>
-                    {player.status ? (currentUser?.email === "shantanubhs1985@gmail.com" || currentUser?.email ==="arghajitsingharoy001@gmail.com" || currentUser?.email ==="raptic18@gmail.com" ? <Link to="/admin" className='profile border-2 border-white rounded-full p-2 text-white'><img src={currentUser?.photoURL ? currentUser.photoURL : "/user.jpg"} alt="User" className='rounded-full w-7 h-7 object-cover'/></Link> : <Link to="/user" className='profile border-2 border-white rounded-full p-1 text-white'><img src={currentUser?.photoURL ? currentUser.photoURL : "/user.jpg"} alt="User" className='rounded-full w-7 h-7 object-cover'/></Link>) : ''}
+                    {player.status ? (currentUser?.email === "shantanubhs1985@gmail.com" || currentUser?.email ==="arghajitsingharoy001@gmail.com" || currentUser?.email ==="raptic18@gmail.com" ||   currentUser?.email ==="ghoshsuvrajit17@gmail.com" ? <Link to="/admin" className='profile border-2 border-white rounded-full p-2 text-white'><img src={currentUser?.photoURL ? currentUser.photoURL : "/user.jpg"} alt="User" className='rounded-full w-7 h-7 object-cover'/></Link> : <Link to="/user" className='profile border-2 border-white rounded-full p-1 text-white'><img src={currentUser?.photoURL ? currentUser.photoURL : "/user.jpg"} alt="User" className='rounded-full w-7 h-7 object-cover'/></Link>) : ''}
                     <Hamburger/>
                 </div>
             </motion.header>
@@ -87,7 +87,7 @@ function Navbar() {
                 </div>
 
                 <div className='flex justify-between items-center gap-[1rem]'>
-                    {player.status ? (currentUser.email==="shantanubhs1985@gmail.com" ? <Link to="/admin" className='profile border-2 border-white rounded-full p-2 text-white'><img src={currentUser?.photoURL ? currentUser.photoURL : "/user.jpg"} alt="User" className='rounded-full w-7 h-7 object-cover'/></Link> : <Link to="/user" className='profile border-2 border-white rounded-full p-1 text-white'><img src={currentUser?.photoURL ? currentUser.photoURL : "/user.jpg"} alt="User" className='rounded-full w-7 h-7 object-cover'/></Link>) : ''}
+                    {player.status ? (currentUser?.email === "shantanubhs1985@gmail.com" || currentUser?.email ==="arghajitsingharoy001@gmail.com" || currentUser?.email ==="raptic18@gmail.com" ||  currentUser?.email ==="ghoshsuvrajit17@gmail.com" ? <Link to="/admin" className='profile border-2 border-white rounded-full p-2 text-white'><img src={currentUser?.photoURL ? currentUser.photoURL : "/user.jpg"} alt="User" className='rounded-full w-7 h-7 object-cover'/></Link> : <Link to="/user" className='profile border-2 border-white rounded-full p-1 text-white'><img src={currentUser?.photoURL ? currentUser.photoURL : "/user.jpg"} alt="User" className='rounded-full w-7 h-7 object-cover'/></Link>) : ''}
 
                     {player.status ? <button onClick={doLogOut} className='button bg-white flex justify-center items-center'>Logout <LogOut /></button> : 
                     <Link to={'/login'}>

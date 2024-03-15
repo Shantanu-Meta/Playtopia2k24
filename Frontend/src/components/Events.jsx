@@ -65,7 +65,7 @@ const Events = () => {
               {selectedGame ? selectedGame.desc : defaultP}
             
           </div>
-          {(selectedGame.id===4 || selectedGame.id===7) ? <a href={selectedGame.id===4 ? "https://forms.gle/1Vxgyn2yauPZFWF87" : "https://forms.gle/DSHgpnrQqtK9sLSk6"} target="__blank" className="flex justify-center rounded-lg w-[120px] bg-white h-[50px] my-1  items-center   cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#009b49] before:to-[rgb(105,184,141)] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-black mt-5 bg-gradient-to-r from-amber-500 to-pink-500 font-bold "> Register </a> : 
+          {(selectedGame.id===4 || selectedGame.id===7) ? <a href={selectedGame.id===4 ? "https://forms.gle/1Vxgyn2yauPZFWF87" : "https://docs.google.com/forms/d/e/1FAIpQLSdfgxHXopSOZgHkppPrz-SIlRRfPRpLyPMiWyCzq-NL2_hacw/viewform"} target="__blank" className="flex justify-center rounded-lg w-[120px] bg-white h-[50px] my-1  items-center   cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#009b49] before:to-[rgb(105,184,141)] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-black mt-5 bg-gradient-to-r from-amber-500 to-pink-500 font-bold "> Register </a> : 
           <Link to={selectedGame?.route} >
                       <button className="flex justify-center rounded-lg w-[120px] bg-white h-[50px] my-1  items-center   cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#009b49] before:to-[rgb(105,184,141)] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-black mt-5 bg-gradient-to-r from-amber-500 to-pink-500 font-bold ">
                         Register
@@ -232,7 +232,7 @@ const Events = () => {
                 Open Mic is one of the exciting segments of Playtopia, an event organized by the Department of Computer Application and Science; Business Administration. It provides a platform for individuals or duos to showcase their talents in various genres
                 </p>
                 <div className="w-full flex mt-6">
-                <a href={"https://forms.gle/DSHgpnrQqtK9sLSk6"} target="__blank">
+                <a href={"https://docs.google.com/forms/d/e/1FAIpQLSdfgxHXopSOZgHkppPrz-SIlRRfPRpLyPMiWyCzq-NL2_hacw/viewform"} target="__blank">
                   <button className="w-[120px] bg-white h-[50px] my-1 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#009b49] before:to-[rgb(105,184,141)] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-black">
                       Register
                     </button>

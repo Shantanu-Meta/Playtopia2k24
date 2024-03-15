@@ -109,7 +109,7 @@ export const ProtectedRoute = ({children}) =>{
 
 export const ProtectedRouteForAdmin = ({children}) =>{
   const {player, currentUser} = useContext(userContext); 
-  if(currentUser?.email === "shantanubhs1985@gmail.com" || currentUser?.email ==="arghajitsingharoy001@gmail.com" || currentUser?.email ==="raptic18@gmail.com"){
+  if(currentUser?.email === "shantanubhs1985@gmail.com" || currentUser?.email ==="arghajitsingharoy001@gmail.com" || currentUser?.email ==="raptic18@gmail.com" ||  currentUser?.email ==="ghoshsuvrajit17@gmail.com"){
      return children; 
   }else{
     return <Error/>
