@@ -21,7 +21,7 @@ const games = [
         desc: "Greetings, Battleground Champions! We are thrilled to welcome you to our exhilarating BGMI Tournament! As avid gamers and enthusiasts ourselves, we've crafted an electrifying event to celebrate the spirit of competition and camaraderie within the PUBG community.",
         src: bg2,
         position: "center",
-        route: "/bgmiregister"
+        route: "/closed"
     },
     {
         id: 3,

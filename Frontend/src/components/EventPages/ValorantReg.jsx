@@ -111,7 +111,7 @@ const BgmiReg = () => {
                             </div>
                             <div>
                                 <label className="block mb-2 text-sm text-white">Player6 RIOT ID(Optional)</label>
-                                <input type="text" placeholder="" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg  focus:outline-none focus:ring focus:ring-opacity-40" onChange={(e)=>{setTeamMate({...teamMate, riotId5:e.target.value})}} />
+                                <input type="text" placeholder="" className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg  focus:outline-none focus:ring focus:ring-opacity-40" onChange={(e)=>{setTeamMate({...teamMate, riotId5:e.target.value})}}/>
                             </div> 
                             </div>          
                             <div className="w-full">

@@ -17,7 +17,6 @@ import Close from './components/Close.jsx'
 import ValorantReg from './components/EventPages/ValorantReg.jsx';
 import BgmiReg from './components/EventPages/BgmiReg.jsx';
 // import OpenMicReg from './components/EventPages/OpenmicReg.jsx'
-import BallPoolReg from './components/EventPages/BallPoolReg.jsx'
 import TreasureHunt from './components/EventPages/TreasureHunt.jsx'
 import BsHackathon from './components/EventPages/BsHackathon.jsx'
 
@@ -51,12 +50,11 @@ export default function App() {
                 {/* done */}
               </ProtectedRoute>
             }/>
-            <Route exact path='/bgmiregister' element={
+            {/* <Route exact path='/bgmiregister' element={
               <ProtectedRoute>
                 <BgmiReg/>
-                {/* done */}
               </ProtectedRoute>
-            }/>
+            }/> */}
             {/* <Route exact path='/ballpoolregister' element={
               <ProtectedRoute>
                 <BallPoolReg/>
