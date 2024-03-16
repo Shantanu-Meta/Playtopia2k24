@@ -50,7 +50,7 @@ const games = [
     {
         id: 6,
         title: "Treasure Hunt",
-        desc: "This Businwss Hackathon will help the youth to reach out to numerous young minds and market experts and will be able to enrich themselves with creativity and technical expertise.",
+        desc: "Treasure: The ultimate goal is to locate the treasure, which could be a physical object hidden at a specific location or a virtual prize.",
         src: bg6,
         position: "center",
         route: "/treasureregister"
