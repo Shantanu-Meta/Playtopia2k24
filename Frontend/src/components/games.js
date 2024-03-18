@@ -53,7 +53,7 @@ const games = [
         desc: "Treasure: The ultimate goal is to locate the treasure, which could be a physical object hidden at a specific location or a virtual prize.",
         src: bg6,
         position: "center",
-        route: "/treasureregister"
+        route: "/closed"
     },
     {
         id: 7,

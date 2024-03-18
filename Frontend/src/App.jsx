@@ -64,11 +64,11 @@ export default function App() {
                 <BsHackathon/>
               </ProtectedRoute>
             }/>
-            <Route exact path='/treasureregister' element={
+            {/* <Route exact path='/closed' element={
               <ProtectedRoute>
                 <TreasureHunt/>
               </ProtectedRoute>
-            }/>
+            }/> */}
             {/* <Route exact path='/openmicregister' element={
               <ProtectedRoute>
                 <OpenMicReg/>
