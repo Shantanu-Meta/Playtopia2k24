@@ -19,6 +19,8 @@ import BgmiReg from './components/EventPages/BgmiReg.jsx';
 // import OpenMicReg from './components/EventPages/OpenmicReg.jsx'
 import TreasureHunt from './components/EventPages/TreasureHunt.jsx'
 import BsHackathon from './components/EventPages/BsHackathon.jsx'
+import BallPoolReg from './components/EventPages/BallPoolReg.jsx'
+
 
 export default function App() {
   return (
@@ -54,11 +56,11 @@ export default function App() {
                 <BgmiReg/>
               </ProtectedRoute>
             }/> */}
-            {/* <Route exact path='/ballpoolregister' element={
+            <Route exact path='/ballpoolregister' element={
               <ProtectedRoute>
                 <BallPoolReg/>
               </ProtectedRoute>
-            }/> */}
+            }/>
             <Route exact path='/bshackregister' element={
               <ProtectedRoute>
                 <BsHackathon/>

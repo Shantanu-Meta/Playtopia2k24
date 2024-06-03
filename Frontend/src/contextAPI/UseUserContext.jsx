@@ -24,7 +24,7 @@ export default function UseUserContext(props){
     const navigate = useNavigate();
 
 
-    const host = "https://api.playtopia2k24.in" // hosting purpose
+    const host = "http://localhost:5000" // hosting purpose
 
     useEffect(()=>{
         const unSubscribe = onAuthStateChanged(auth, (googleUser)=>{

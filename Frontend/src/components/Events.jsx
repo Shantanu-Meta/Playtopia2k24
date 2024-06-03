@@ -151,7 +151,7 @@ const Events = () => {
                 Step into the virtual world of 8ball pool! Show off your skills in precision and tactics. It's all about aiming, strategy and a dash of luck, making every shot a moment of thrilling excitement and fun. Let's grab the cue sticks and  break into the world of gaming!
                 </p>
                 <div className="w-full flex mt-6">
-                  <Link to={"/closed"}>
+                  <Link to={"/ballpoolregister"}>
                   <button className="w-[120px] bg-white h-[50px] my-1 flex items-center justify-center rounded-xl cursor-pointer relative overflow-hidden transition-all duration-500 ease-in-out shadow-md hover:scale-105 hover:shadow-lg before:absolute before:top-0 before:-left-full before:w-full before:h-full before:bg-gradient-to-r before:from-[#009b49] before:to-[rgb(105,184,141)] before:transition-all before:duration-500 before:ease-in-out before:z-[-1] before:rounded-xl hover:before:left-0 text-black">
                       Register
                     </button>
